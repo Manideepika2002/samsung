@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+#nav{
+    /* border: 2px solid red; */
+    height: 100px;
+}
+#sub-nav{
+    /* border: 2px solid aqua; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-left ol{
+     /* border: 2px solid aqua;  */
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+#nav-right ol{
+    /* border: 2px solid yellow;  */
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -25px;
+  
+}
+/* #main{
+     border: 2px solid aqua; 
+} */
+#sub-main{
+    background-image: url('./assests/HOME_Eureka_Invitation_KV_1440x640_pc_preivew.webp');
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+#section1{
+    /* border: 2px solid aqua; */
+    color: #fff;
+    margin-left: 70px;
+    height: 300px;
+    margin-top: 200px;
+        
+}
+h1{
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1.2;
+
+}
+p{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #eee;
+}
+button{
+    
+    color:#000;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+}
+#nav1{
+    /* border: 2px solid; */
+    height: 30px;
+}
+#sub-nav1{
+    /* border: 2px solid aqua; */
+    margin: auto;
+    /* display: flex; */
+    width: 50%;
+}
+#sub-nav1 ol{
+    height: inherit;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+#title1{
+    font-size: 38px;
+    font-weight: bold;
+    /* margin-left: 37%; */
+    text-align: center;
+    
+}
+#section2{
+    /* border: 2px solid; */
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+#left-aside{
+    /* border: 2px solid aqua; */
+    width: 50%;
+    height: 700px;
+    background-image: url('./assests/BigTile_684x684.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #middle-aside{
+    border: 2px solid orange;
+} */
+#art1{
+    /* border: 2px solid blue; */
+    margin-left: 30px;
+    width: 330px;
+    height: 330px;
+    background-image: url('./assests/homepage_Small_Tile_330x330_3\ \(1\).avif');
+}
+#art2 {
+    /* border: 2px solid blue; */
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 330px;
+    height: 335px;
+    background-image: url('./assests/homepage_Small_Tile_330x330_6\ \(1\).avif');
+}
+
+/* #right-aside{
+    border: 2px solid orange;
+} */
+#art3{
+    /* border: 2px solid blue; */
+    margin-left: 30px;
+    width: 330px;
+    height: 330px;
+    background-image: url('./assests/homepage_Small_Tile_330x330_4.avif');
+}
+#art4 {
+    /* border: 2px solid blue; */
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 330px;
+    height: 335px;
+    background-image: url('./assests/voucher_Small_Tile_330x330.avif');
+}
+h2{
+    margin-left: 200px;
+    color: #fff;
+    margin-top: 85%;
+}
+#para1{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #eee;
+    margin-left: 150px;
+   
+}
+#sub-nav2{
+    /* border: 2px solid aqua; */
+    margin: auto;
+    width: 60%;
+}
+#sub-nav2 ol{
+    height: 30px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+#section3{
+    border: 2px solid;
+    height: 800px;
+    width: 95%;
+    margin: auto;
+    background-image: url(./assests/Fold5ProductMarketing_1440x810.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#mobile-h2{
+    /* border: 2px solid red; */
+    color: #000;
+    text-align: center;
+    margin-left: 10px;   
+    margin-top: 600px;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+#mobile-para{
+    /* border: 2px solid aqua; */
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #000;
+}
+
+#mobile-button{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+}
+#mobile-anchor{
+    text-decoration-color: #000;
+    color: #000;
+    text-align: center;
+    margin-left :600px;
+}
+
+
+
+
